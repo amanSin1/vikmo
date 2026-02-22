@@ -33,6 +33,8 @@ staticfiles/
 
 # Environment variables
 .env
+.env.local
+.env.production
 
 # IDE
 .vscode/
@@ -40,12 +42,26 @@ staticfiles/
 *.swp
 *.swo
 .DS_Store
+Thumbs.db
 
 # Node
 node_modules/
 frontend/node_modules/
 frontend/build/
+frontend/dist/
 frontend/.env
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# Docker
+docker-compose.override.yml
+
+# Coverage / Testing
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Misc
+*.bak
+*.tmp

@@ -339,7 +339,57 @@ GET /api/orders/summary/
 
 ---
 
-## Business Rules Implemented
+## Frontend Setup (React)
+
+### Run locally
+```bash
+cd frontend
+npm install
+npm run dev
+```
+Frontend runs at: `http://localhost:5173`
+
+### Features
+- Login page (admin and dealer roles)
+- Admin Dashboard with revenue, top products, low stock alerts
+- Dealer Dashboard with personal order stats
+- Products page — browse, search, create (admin), delete (admin)
+- Inventory page — stock levels, manual adjustment with audit log (admin only)
+- Dealers page — create and manage dealer accounts (admin only)
+- Orders page — create draft, confirm (deducts stock), deliver, filter by status
+- Role-based sidebar — dealers see only their relevant pages
+- Click any order row to expand and see line items
+
+---
+
+## Running with Docker (Full Stack)
+
+Run the entire stack — PostgreSQL + Django + React — with one command:
+
+```bash
+docker-compose up --build
+```
+
+| Service | URL |
+|---------|-----|
+| React Frontend | http://localhost:5173 |
+| Django API | http://localhost:8000/api/ |
+| Swagger Docs | http://localhost:8000/api/docs/ |
+| Django Admin | http://localhost:8000/admin/ |
+
+To stop:
+```bash
+docker-compose down
+```
+
+To reset database:
+```bash
+docker-compose down -v
+docker-compose up --build
+```
+
+---
+
 
 1. **Stock validation** — ALL items checked before confirming, entire order rejected if any fail
 2. **Atomic transactions** — stock deducted all-or-nothing, no partial deductions possible
