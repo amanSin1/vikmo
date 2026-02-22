@@ -408,3 +408,20 @@ docker-compose up --build
 - Stock cannot go below 0 (enforced at DB and API level)
 - Deleting a dealer or product that has orders is blocked (PROTECT constraint)
 - Inventory record is always auto-created with 0 stock when product is created
+
+Images : Delaer dashboard
+  <img width="732" height="722" alt="image" src="https://github.com/user-attachments/assets/309a7924-ee16-4d9c-af56-55bb1988e086" />
+
+  <img width="1867" height="815" alt="image" src="https://github.com/user-attachments/assets/1d9276fc-5bb9-43de-97a7-e785a139942a" />
+  <img width="1904" height="598" alt="image" src="https://github.com/user-attachments/assets/5a4d0c1e-5037-41b0-9b92-34e8f6a8f156" />
+  <img width="1903" height="817" alt="image" src="https://github.com/user-attachments/assets/8e741ecf-56f0-4f2e-9672-e4c007766ab6" />
+  <img width="1903" height="604" alt="image" src="https://github.com/user-attachments/assets/4d8043b3-95e6-4df9-8ab1-2f0f4474a34b" />
+Images : Admin dashboard
+<img width="1903" height="817" alt="image" src="https://github.com/user-attachments/assets/20003e80-d904-4154-aec3-91c23e66fdd2" />
+<img width="1913" height="567" alt="image" src="https://github.com/user-attachments/assets/42ca11c7-6032-4eb8-bd80-9fedfc8dc08f" />
+<img width="1918" height="566" alt="image" src="https://github.com/user-attachments/assets/6db44410-0e63-47d0-9711-6c273a5a372b" />
+<img width="1910" height="552" alt="image" src="https://github.com/user-attachments/assets/ee34207c-5fd8-4a93-b17a-6b9c286e5de4" />
+<img width="1550" height="390" alt="image" src="https://github.com/user-attachments/assets/998dcc3c-d3c3-41f1-a247-d17a01e2fa46" />
+<img width="1567" height="771" alt="image" src="https://github.com/user-attachments/assets/d4ad1342-cc3e-4ccf-9795-c9bce4bad656" />
+<img width="1480" height="703" alt="image" src="https://github.com/user-attachments/assets/5ce99311-77fd-4724-9d77-b48fef2b57d6" />
+
