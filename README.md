@@ -1,3 +1,5 @@
+![CI/CD](https://github.com/amanSin1/vikmo/actions/workflows/django-ci-cd.yml/badge.svg)
+
 # Vikmo — Sales Order & Inventory Management System
 
 A B2B SaaS backend for auto parts distribution built with Django REST Framework and PostgreSQL.
